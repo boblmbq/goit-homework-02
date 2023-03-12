@@ -3,32 +3,30 @@ body {
      font-family: 'Roboto', sans-serif;
 }
 
-.wrap {}
+.header-up {}
 
-.header {}
+.nav {}
 
-.same-background {}
+.header-nav {}
 
-.main-nav {}
+.nav-logo-link {}
 
-.logo-link {}
-
-.logo-web {}
+.nav-logo {}
 
 .container-links {}
 
 .nav-link {}
 
-.Studio {}
+.studio {}
 
-.Portfolio {}
+.portfolio {}
 
-.Contacts {}
+.contacts {}
+
+.header-ads {}
 
 .address {}
 
-.address-link {}
+.address-email {}
 
-.email {}
-
-.tel {}
+.address-tel {}
