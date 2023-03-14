@@ -30,7 +30,7 @@ color von font ins portfolio mit ":active" #FFFFFF*/
 body {
      font-family: 'Raleway', sans-serif;
      font-family: 'Roboto', sans-serif;
-     color: var(--color-tit-back);
+     color: var(--color-ads-txt);
 }
 
 .list {
