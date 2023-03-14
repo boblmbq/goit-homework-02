@@ -51,7 +51,8 @@ body {
      text-decoration: none;
 }
 
-.header-navigaton .header-cont-link:hover {
+.header-navigaton .header-cont-link:hover,
+.header-navigaton .header-cont-link:focus {
      color: var(--color-bck-btn-act);
      font-weight: 500;
      font-size: 16px;
@@ -103,7 +104,9 @@ body {
 }
 
 .address .header-email:hover,
-.address .header-tel:hover {
+.address .header-tel:hover,
+.address .header-email:focus,
+.address .header-tel:focus {
      font-style: normal;
      text-decoration: none;
      color: var(--color-bck-btn-act);
@@ -182,4 +185,22 @@ button[type="button"] {
      line-height: 24px;
      letter-spacing: 0.02em;
      color: var(--color-footer-txt);
+}
+
+
+
+
+/* Button Portfolio Style */
+
+ul button[type="button"].btn {
+     color: var(--color-font-logo);
+     background-color: var(--color-bck-btn);
+     cursor: pointer;
+}
+
+ul button[type="button"].btn:hover,
+ul button[type="button"].btn:focus,
+ul button[type="button"].btn:active {
+     color: var(--color-fnt-btn-act);
+     background-color: var(--color-bck-btn-act);
 }
