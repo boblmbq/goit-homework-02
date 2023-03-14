@@ -38,11 +38,21 @@ body {
 }
 
 
+/* Header Style */
 
 .header-abov {}
 
 .header-navigaton .header-cont-link {
      color: var(--color-tit-back);
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     text-decoration: none;
+}
+
+.header-navigaton .header-cont-link:hover {
+     color: var(--color-bck-btn-act);
      font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
@@ -108,7 +118,7 @@ body {
 .header-tel {}
 
 
-
+/* First Section Style */
 
 .same-background {
      background-color: var(--color-tit-back);
@@ -121,4 +131,55 @@ body {
      font-size: 56px;
      line-height: 1.07;
      letter-spacing: 0.02em;
+}
+
+button[type="button"] {
+     color: var(--color-fnt-btn-act);
+     background-color: var(--color-font-logo);
+}
+
+
+
+/* second section Style */
+
+/* h123 style */
+.heading {
+     color: var(--color-tit-back);
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+}
+
+.headline {
+
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 40px;
+     letter-spacing: 0.02em;
+     text-transform: capitalize;
+}
+
+/* description and text style  */
+.text,
+.desc {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 0.02em;
+     color: var(--color-ads-txt);
+}
+
+
+/* footer style */
+.same-background .footer-logo {
+     color: #F4F4FD;
+}
+
+.same-background .text-footer {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 0.02em;
+     color: var(--color-footer-txt);
 }
