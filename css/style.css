@@ -44,7 +44,7 @@ body {
 
 .header-abov {}
 
-.header-navigaton .header-cont-link {
+.header-navigaton .link {
      color: var(--color-tit-back);
      font-weight: 500;
      font-size: 16px;
@@ -53,8 +53,8 @@ body {
      text-decoration: none;
 }
 
-.header-navigaton .header-cont-link:hover,
-.header-navigaton .header-cont-link:focus {
+.header-navigaton .link:hover,
+.header-navigaton .link:focus {
      color: var(--color-bck-btn-act);
      font-weight: 500;
      font-size: 16px;
@@ -66,19 +66,24 @@ body {
 .header-logo {
      font-weight: 800;
      font-size: 18px;
-     line-height: 1.3;
+     line-height: 1.17;
      text-transform: uppercase;
      text-decoration: none;
      letter-spacing: 0.03em;
-
-}
-
-.header-logo-web {
      color: var(--color-font-logo);
+
 }
 
 .header-logo-std {
      color: var(--color-tit-back);
+}
+
+.header-logo-std {
+     color: var(--color-tit-back);
+}
+
+.link {
+     text-decoration: none;
 }
 
 
@@ -93,6 +98,10 @@ body {
 .contacts {}
 
 .header-adds {}
+
+.address {
+     font-style: normal;
+}
 
 .address .header-email,
 .address .header-tel {
