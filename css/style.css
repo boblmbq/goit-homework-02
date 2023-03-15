@@ -227,7 +227,7 @@ button {
      text-transform: capitalize;
 }
 
-.section-four-list{
+.section-four-list {
      background-color: var(--color-fnt-btn-act);
 }
 
@@ -253,9 +253,9 @@ button {
      color: var(--color-footer-txt);
 }
 
-.footer-logo-std{
+.footer-logo-std {
      color: var(--color-bck-btn);
-     
+
 }
 
 
@@ -263,9 +263,14 @@ button {
 /* Button Portfolio Style */
 
 ul button[type="button"].btn {
+     font-family: inherit;
      color: var(--color-font-logo);
      background-color: var(--color-bck-btn);
      cursor: pointer;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
 }
 
 ul button[type="button"].btn:hover,
@@ -273,4 +278,20 @@ ul button[type="button"].btn:focus,
 ul button[type="button"].btn:active {
      color: var(--color-fnt-btn-act);
      background-color: var(--color-bck-btn-act);
+}
+
+.list-title-port {
+     color: var(--color-tit-back);
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+}
+
+.list-text-port {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02;
+     color: var(--color-ads-txt);
+     
 }
