@@ -216,14 +216,19 @@ button {
 
 .section-four {
      background-color: var(--color-bck-btn);
-
 }
 
 .headline-four {
+     font-size: 36px;
      line-height: 1.11;
      text-align: center;
      color: var(--color-tit-back);
+     letter-spacing: 0.02em;
+     text-transform: capitalize;
+}
 
+.section-four-list{
+     background-color: var(--color-fnt-btn-act);
 }
 
 /* footer style */
