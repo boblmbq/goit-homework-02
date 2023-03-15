@@ -34,6 +34,10 @@ body {
      color: #434455;
 }
 
+.link {
+     text-decoration: none;
+}
+
 .list {
      list-style: none;
      text-decoration: none;
@@ -44,7 +48,7 @@ body {
 
 .header-abov {}
 
-.header-navigaton .link {
+.header-navigation .link {
      color: var(--color-tit-back);
      font-weight: 500;
      font-size: 16px;
@@ -53,8 +57,8 @@ body {
      text-decoration: none;
 }
 
-.header-navigaton .link:hover,
-.header-navigaton .link:focus {
+.header-navigation .link:hover,
+.header-navigation .link:focus {
      color: var(--color-bck-btn-act);
      font-weight: 500;
      font-size: 16px;
@@ -63,27 +67,19 @@ body {
      text-decoration: none;
 }
 
-.header-logo {
+.header-navigation .header-logo {
+     font-family: 'Raleway';
+     font-style: normal;
      font-weight: 800;
      font-size: 18px;
      line-height: 1.17;
-     text-transform: uppercase;
-     text-decoration: none;
      letter-spacing: 0.03em;
+     text-transform: uppercase;
      color: var(--color-font-logo);
-
 }
 
 .header-logo-std {
      color: var(--color-tit-back);
-}
-
-.header-logo-std {
-     color: var(--color-tit-back);
-}
-
-.link {
-     text-decoration: none;
 }
 
 
