@@ -175,7 +175,7 @@ body {
      background-color: var(--color-font-logo);
 } */
 
-button{
+button {
      cursor: pointer;
 }
 
@@ -192,12 +192,14 @@ button{
 }
 
 .headline {
-
      font-weight: 700;
      font-size: 36px;
-     line-height: 40px;
      letter-spacing: 0.02em;
      text-transform: capitalize;
+     line-height: 1.11;
+     text-align: center;
+     color: var(--color-tit-back);
+
 }
 
 /* description and text style  */
@@ -210,10 +212,32 @@ button{
      color: var(--color-ads-txt);
 }
 
+/* fourth section style */
+
+.section-four {
+     background-color: var(--color-bck-btn);
+
+}
+
+.headline-four {
+     line-height: 1.11;
+     text-align: center;
+     color: var(--color-tit-back);
+
+}
 
 /* footer style */
 .same-background .footer-logo {
      color: #F4F4FD;
+     font-family: var(--foot-family);
+     font-style: normal;
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     text-decoration: none;
+     color: var(--color-font-logo);
 }
 
 .same-background .text-footer {
@@ -224,6 +248,10 @@ button{
      color: var(--color-footer-txt);
 }
 
+.footer-logo-std{
+     color: var(--color-bck-btn);
+     
+}
 
 
 
