@@ -22,6 +22,8 @@ color von font ins portfolio mit ":active" #FFFFFF*/
      --color-fnt-btn-act: #FFFFFF;
 
      --foot-family: 'Raleway', sans-serif;
+
+     --font-famyli: 'Roboto', sans-serif;
 }
 
 
@@ -68,7 +70,7 @@ body {
 }
 
 .header-navigation .header-logo {
-     font-family: 'Raleway';
+     font-family: 'Raleway', sans-serif;
      font-style: normal;
      font-weight: 800;
      font-size: 18px;
@@ -134,19 +136,43 @@ body {
      background-color: var(--color-tit-back);
 }
 
-.section-1-h1 {
+.section-one {
      color: var(--color-fnt-btn-act);
      font-style: normal;
      font-weight: 700;
      font-size: 56px;
      line-height: 1.07;
      letter-spacing: 0.02em;
+     text-align: center;
 }
 
-button[type="button"] {
+.btn-main {
      color: var(--color-fnt-btn-act);
      background-color: var(--color-font-logo);
+     font-family: var(--font-famyli);
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+
 }
+
+.btn-main:hover {
+     color: var(--color-bck-btn-act);
+     background-color: var(--color-font-logo);
+     font-family: var(--font-famyli);
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     cursor: pointer;
+
+}
+
+/* button[type="button"] {
+     color: var(--color-fnt-btn-act);
+     background-color: var(--color-font-logo);
+} */
 
 
 
