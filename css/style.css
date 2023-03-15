@@ -48,7 +48,7 @@ body {
 
 .header-abov {}
 
-.header-navigation .link {
+.header-navigation li>a {
      color: var(--color-tit-back);
      font-weight: 500;
      font-size: 16px;
@@ -57,8 +57,8 @@ body {
      text-decoration: none;
 }
 
-.header-navigation .link:hover,
-.header-navigation .link:focus {
+.header-navigation li>a:hover,
+.header-navigation li>a:focus {
      color: var(--color-bck-btn-act);
      font-weight: 500;
      font-size: 16px;
