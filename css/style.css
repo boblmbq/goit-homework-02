@@ -101,8 +101,8 @@ body {
      font-style: normal;
 }
 
-.address .header-email,
-.address .header-tel {
+.address .link,
+.address .link {
      font-style: normal;
      text-decoration: none;
      color: var(--color-ads-txt);
@@ -112,10 +112,10 @@ body {
      letter-spacing: 0.02em;
 }
 
-.address .header-email:hover,
-.address .header-tel:hover,
-.address .header-email:focus,
-.address .header-tel:focus {
+.address .link:hover,
+.address .link:hover,
+.address .link:focus,
+.address .link:focus {
      font-style: normal;
      text-decoration: none;
      color: var(--color-bck-btn-act);
@@ -157,7 +157,8 @@ body {
 
 }
 
-.btn-main:hover {
+.btn-main:hover,
+.btn-main:focus {
      color: var(--color-bck-btn-act);
      background-color: var(--color-font-logo);
      font-family: var(--font-famyli);
@@ -174,6 +175,9 @@ body {
      background-color: var(--color-font-logo);
 } */
 
+button{
+     cursor: pointer;
+}
 
 
 /* second section Style */
