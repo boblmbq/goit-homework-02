@@ -160,7 +160,7 @@ body {
 .btn-main:hover,
 .btn-main:focus {
      color: var(--color-bck-btn-act);
-     background-color: var(--color-font-logo);
+     background-color: var(--color-bck-btn-act);
      font-family: var(--font-famyli);
      font-weight: 500;
      font-size: 16px;
@@ -293,5 +293,5 @@ ul button[type="button"].btn:active {
      line-height: 1.5;
      letter-spacing: 0.02;
      color: var(--color-ads-txt);
-     
+
 }
