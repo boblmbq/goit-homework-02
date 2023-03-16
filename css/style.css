@@ -34,6 +34,7 @@ body {
      font-family: 'Roboto', sans-serif;
      color: var(--color-ads-txt);
      color: #434455;
+     background-color: var(--color-fnt-btn-act);
 }
 
 .link {
@@ -291,7 +292,7 @@ ul button[type="button"].btn:active {
 .list-text-port {
      font-size: 16px;
      line-height: 1.5;
-     letter-spacing: 0.02;
+     letter-spacing: 0.02em;
      color: var(--color-ads-txt);
 
 }
