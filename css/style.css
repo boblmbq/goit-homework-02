@@ -8,21 +8,13 @@ color von font ins portfolio mit ":active" #FFFFFF*/
 
 :root {
      --color-font-logo: #4D5AE5;
-
      --color-tit-back: #2E2F42;
-
      --color-ads-txt: #434455;
-
      --color-footer-txt: #E7E9FC;
-
      --color-bck-btn-act: #404BBF;
-
      --color-bck-btn: #F4F4FD;
-
      --color-fnt-btn-act: #FFFFFF;
-
      --foot-family: 'Raleway', sans-serif;
-
      --font-famyli: 'Roboto', sans-serif;
 }
 
